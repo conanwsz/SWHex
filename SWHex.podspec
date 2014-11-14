@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "podTest"
+  s.name             = "SWHex"
   s.version          = "1.0.0"
   s.summary          = "Objective-C NSString to Byte, Byte to String category"
   s.description      = <<-DESC

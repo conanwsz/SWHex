@@ -20,7 +20,7 @@
 
 -(NSInteger) bytesToDecValue:(int)num1, ...{
     Byte *bytes = (Byte*)[self bytes];
-    int length = [self length];
+    int length = (int)[self length];
     int eachNum;
     va_list argumentList;
     int value = 0;
