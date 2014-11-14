@@ -18,7 +18,7 @@
     long result = 0;
     
     int round = 0;
-    long lastDecNum = 0;
+    int lastDecNum = 0;
     while (YES) {
         if (round>0) {
             hexFac *= 16;
@@ -28,7 +28,7 @@
             break;
         }
         
-        lastDecNum = (num % (decFac * 10) - lastDecNum) / decFac;
+        lastDecNum = (int)(num % (decFac * 10) - lastDecNum) / decFac;
         result += lastDecNum * hexFac;
         
         round++;
